@@ -1,0 +1,53 @@
+Hashing is array based not linked based. Better than log(n)
+
+We are going to do hashing in a simplistic way. 
+Hash function - we give it a key and we get back an integer. The idea is 
+we can take any data and turn it into an integer and any key can be reduced to 
+a unique integer. 
+
+Hashing will give us an integer and using an index we can in o1 efficiency
+go directly to that location.
+
+Movie data uses title and year as a key. we use a hash function for this
+which is one of pythons magic methods.
+the ord function gives us an integer code version of a character.
+
+The number we get is arbitrary. If we take the hash number and modulo
+seven we will get integers between the numbers four and six. This means
+that movies will end up each in their own individual slot. 
+
+No linear search required for hash sets find. Once we find the slot do a search
+within the slot to find the matching data.we will require a linear search after
+doing it. 
+
+PERFECT HASH - no overlap of data with their slots. we are going to work with
+hash sets and calculate data based on that. Every slot is going to make
+up a list. It could also be a sorted list or a BST (PRACTICE IMPLEMENTING
+THESE). Not a queue or stack. 
+
+A hash set is a LARGE LIST OF NUMBERS that're indexed by their hash
+rather than by themselves.
+
+the hash value of our number is going to be:
+H(i) mod capacity (exl/ if our capacity is 12,000 itll become 2000)
+
+https://www.youtube.com/watch?v=9oKpRTBfNXo <<< Watch video for hashing 
+extra help.
+
+Best case for a hash set: o(1)
+worst case for a hash set: o(n)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

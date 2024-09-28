@@ -1,0 +1,164 @@
+https://www.geeksforgeeks.org/top-50-binary-search-tree-coding-problems-for-interviews/
+^^^BSTs practice problems/questions (go to level 3)
+
+https://igotanoffer.com/blogs/tech/linked-list-interview-questions#hard
+^^^Linked Lists practice problems/questions (do the hard ones)
+
+1. Linked List Problems
+Problem 1: Merge K Sorted Linked Lists
+Given K sorted linked lists, merge them into one sorted linked list.
+
+Problem 3: Reverse in Groups
+Given a linked list, write a function to reverse the nodes of the list in groups of size 
+k. The function should return the new head of the modified list. If the number of nodes is not a multiple of 
+k, then leave the last few nodes as is.
+
+2. Linked Stack Problems
+Problem 4: Evaluate Postfix Expression
+Given a postfix expression, implement a function using a linked stack to evaluate the expression and 
+return the result. The expression may contain the operators +, -, *, /, and non-negative integers.
+
+Problem 5: Sort a Stack Using Recursion
+Write a recursive function to sort a linked stack. 
+You can only use one additional stack as a temporary storage and no other data structures like arrays or 
+linked lists.
+
+3. Linked Queue Problems
+O(1) time. Also, implement a method to print all elements from front to back.
+Problem 7: Interleave the First Half with the Second Half
+Given a linked queue, interleave the elements of the first half of the queue with the elements of the second half.
+You cannot use any other data structure except for a linked stack.
+
+Convert a binary search tree to a doubly linked list in-place. The order of the elements in the list 
+should be the same as an in-order traversal of the tree. The left and right pointers in the original BST 
+should become the previous and next pointers, respectively, in the doubly linked list.
+Problem 9: Construct BST from Preorder
+
+Given an array representing the preorder traversal of a binary search tree, construct the BST. You should implement this with 
+𝑂
+(
+𝑛
+)
+O(n) time complexity, where 
+𝑛
+n is the number of nodes.
+
+Problem 10: Lowest Common Ancestor in a BST
+
+Write a function to find the lowest common ancestor of two given nodes in a binary search tree. The tree is not necessarily balanced, and you should implement this in 
+𝑂
+(
+ℎ
+)
+O(h) time, where 
+ℎ
+h is the height of the tree.
+5. Combination Problems
+Problem 11: Implement a Queue Using Two Stacks
+
+Implement a queue using two stacks (linked stacks). The queue should support all standard operations (enqueue, dequeue, front, etc.) with an amortized 
+𝑂
+(
+1
+)
+O(1) time complexity for enqueue and dequeue.
+Problem 12: Flatten a Multilevel Doubly Linked List
+
+You are given a multilevel doubly linked list where each node may have a child pointer to a separate doubly linked list. Flatten the list so that all nodes appear in a single-level doubly linked list. The child nodes should come after their parent nodes in the list.
+Problem 13: Balance a Binary Search Tree
+
+Given a binary search tree that may be unbalanced, write a function to balance the tree. The balanced tree should maintain the properties of a BST while minimizing the height.
+6. Advanced Bonus Problems
+Problem 14: Implement LRU Cache
+
+Implement an LRU (Least Recently Used) cache using a doubly linked list and a hash map. The cache should support the operations get(key) and put(key, value) in 
+𝑂
+(
+1
+)
+O(1) time.
+Problem 15: Serialize and Deserialize BST
+
+Write functions to serialize a binary search tree to a string and deserialize the string back to the original BST. The serialization should be efficient in terms of space and time.
+
+1. Linked List Problems
+Problem 16: Clone a Linked List with Random Pointers
+
+You are given a linked list where each node has an additional random pointer that could point to any node in the list or null. Create a deep copy of the list, ensuring that the random pointers in the new list point to the corresponding nodes.
+Problem 17: Intersection of Two Linked Lists
+
+Given two singly linked lists, determine if they intersect at some node. If they do, return the reference to the intersecting node. Your solution should run in 
+𝑂
+(
+𝑛
++
+𝑚
+)
+O(n+m) time where 
+𝑛
+n and 
+𝑚
+m are the lengths of the two lists.
+Problem 18: Flatten a Linked List
+
+Given a linked list where each node contains a pointer to a sorted linked list (forming a nested structure), flatten the list so that all nodes appear in a single-level sorted linked list. This should be done in 
+𝑂
+(
+𝑛
+log
+⁡
+𝑘
+)
+O(nlogk) time, where 
+𝑛
+n is the total number of nodes, and 
+𝑘
+k is the depth of nesting.
+2. Linked Stack Problems
+Problem 19: Implement a Min Stack
+
+Design a stack that supports push, pop, top, and retrieving the minimum element in constant time. Implement this stack using a linked list. The stack should support these operations:
+push(x) — Push element x onto the stack.
+pop() — Removes the element on the top of the stack.
+top() — Get the top element.
+getMin() — Retrieve the minimum element in the stack.
+Problem 20: Stack with Middle Operation
+
+Design a stack that supports the following operations in 
+𝑂
+(
+1
+)
+O(1) time:
+push(x) — Push element x onto the stack.
+pop() — Removes the element on the top of the stack.
+findMiddle() — Returns the middle element of the stack.
+deleteMiddle() — Deletes the middle element of the stack.
+
+3. Linked Queue Problems
+Problem 21: Implement a Circular Queue
+
+Implement a circular queue using a linked list. The queue should support standard operations (enqueue, dequeue, front, rear) and should handle the wrap-around condition effectively.
+Problem 22: Implement a Priority Queue Using a Linked List
+
+Implement a priority queue where each element has a priority, and elements with higher priorities are dequeued before elements with lower priorities. The implementation should use a linked list, and all operations should be optimized for 
+𝑂
+(
+𝑛
+)
+O(n) complexity.
+
+5. Combination Problems
+
+Problem 27: Infix to Postfix Conversion
+Given an infix expression, implement a function to convert it to a postfix expression using a stack (linked stack). 
+Handle various operators and parentheses correctly.
+
+6. Advanced Bonus Problems
+Problem 29: Find Median in a Stream
+Design a data structure to efficiently find the median of a stream of numbers. Implement this using a combination of a max heap and a min heap or using a self-balancing BST like an AVL tree.
+
+Problem 32: Design a Skip List
+Implement a skip list, which is a probabilistic data structure that allows fast search, insertion, and deletion operations. Your implementation should include methods for inserting, deleting, and searching elements.
+
+

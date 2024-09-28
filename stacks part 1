@@ -1,0 +1,39 @@
+[1,2,3,4] = top, end
+push = 4
+pop = 4
+
+
+
+
+
+#the pointer _top points to the node that contains the next value.
+
+ALL DATA STRUCTURES END IN NONE
+
+with stacks we have two classes:
+1. a node class
+2. stack class that uses node class
+
+You should be able to replace any program that uses a stack with a linked versus array based stack as the same
+and it should run no differently. Otherwise it is written wrong. Therefore any questions that use the data structures
+should work with both.
+
+the node when constructed deepcopys the value for us.
+
+when initalizing the stack we originally set top to None.
+we can only fill a stack by making the computer run out of memory for linked sracks. 
+
+push becomes:
+self._top = _stack_node(value, self._top)
+
+so what this means is that our new top is pointing to the most recently added node
+and the most recently added node is pointing to none (in the case of adding one thing)
+
+self._top -> value, pointer -> None
+
+pop becomes:
+value = self._top._value
+self._top = self._top._next # making top refer to the next top instead
+and python automatically deletes the extra space like garbage cleanup so we dont have to axtually delete it
+
+we know a stack is empty when top = None.

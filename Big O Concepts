@@ -1,0 +1,5 @@
+One loop: O(n)
+Nested loops(loop inside a loop): O(n2)
+Binary Search Trees: O(log(n))
+Recursive functions: O(2n)
+Any sort of assignment (eg: int x = 8): O(1)

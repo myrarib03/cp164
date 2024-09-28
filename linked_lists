@@ -1,0 +1,22 @@
+Linked lists notes:
+1. MAKE SURE YOU CAN WRITE THE PRIORITY QUEUE INSERT FUNCTION.
+MAKE SURE YOU CAN MASTER IT.
+
+the difference between the algorithms for linked and array based is not huge.
+
+Stack.peek():
+
+we check if it is empty for array based by using is_empty. With linked versions we look
+to see if their top is none or not. top is none when empty.
+
+iterative algorithm = NON RECURSIVE.
+
+should be very good at iterating through a linked structure using a current structure.
+SHOULD BE ABLE TO DO THIS IN MY SLEEP.
+
+we cant implement binary search in a sorted linked list so we must do a linear search.
+with a linked list we start at the first occurance of key instead of at the front of the list.
+
+if you can program in the array based, you can program in the linked. as long as you
+understand the key differences between them.
+

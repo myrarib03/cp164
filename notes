@@ -1,0 +1,36 @@
+shift left - important on exam for bst
+
+    p                       r
+l       r    ===>       p       y
+     x     y        l       x
+
+binary_tree._left = shift_left(p)
+
+***make sure you understand these functions and what they mean.
+
+NOTE: the exam will give a diagram for these things.
+
+the left children of P dont change and the left children of R dont change
+but because we are changing the left children of P the only spot we have
+are the right children.
+
+R replaces P
+R left becomes P right Rx -> Px
+P right becomes R left Pr -> Ry
+
+***new function
+node height = look at the heights of the main nodes children
+for the parent node its height must be larger than its children
+pick the largest child height and add one to it to get the height of the main node
+to call for the height:
+node._height()
+if we dont have a right or left child we still need an integer. we need to make it 0.
+
+node heights = add heights of all nodes together.
+
+***newer function
+He might make us rotate BSTs a certain number of times
+final is all linked outside of hash sets. 
+100% BST questions involving visiting every node.
+there may be a shifting one that doesn't visit any node
+he will state clearly method must be recursive if you put a loop in you'll get a zero.

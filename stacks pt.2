@@ -1,0 +1,26 @@
+how the combine method works:
+
+temp = source._top
+
+^^this refers to the first node in memory of our source linked stack
+
+source._top = source._top._next
+
+^^this means we are making our new top into the next node in memory, however
+our temp is still referring to the first node in memory (so it does not get deleted)
+
+So, as we stand right now: temp = node1, source._top = node2
+
+temp._next = self._top
+
+^^this means that the next node in the case of our very first node in memory, is now the top of 
+our self (which is none right now). this also helps us to cut off temp from source.
+so, to summarize: temp = node1, temp.next = none
+
+self._top = temp
+
+^^this means that the first node in our memory is our new top, and it is pointing to none
+
+so, to sumarize: self._top = node1, self._top._next = none, source.top = node2 (new node 1), source._top._next = node2._next
+
+Marks on exams means CAN I MOVE NODES INSTEAD OF DATA???.

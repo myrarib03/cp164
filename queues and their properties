@@ -1,0 +1,16 @@
+Normal Queue:
+front = [4,3,2,1] = end
+
+Priority Queue:
+front = [1,2,3,4] = end
+if you want to switch the order to reverse it you could probably just 
+do the object with least priority first as opposed to most priority.
+to distinguish priority between values we use a < operator. 
+
+Dequeue:
+front = [4,3,2,1] = end
+***but Dequeues are special with linked data structurs
+because when they are linked they are capable of two pointers.
+One pointer goes to the previous node, the other pointer 
+goes to the next node. Dequeues are not organized based on
+priority.

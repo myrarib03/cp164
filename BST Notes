@@ -1,0 +1,12 @@
+BST is_empty = a BST is empty when the root is None
+BST_Height = the height of the children plus one (how far the node is from the
+bottom of the tree). For any node with no children, the height is one.
+any empty nodes have a height of zero.
+
+BST_nodes = the children nodes are the values that are
+either less than (left) or greater than (right) the root. 
+BSTs are Non-linear data structures. 
+They DO NOT have duplicates.
+
+https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/ <<< level order traversals in different
+ways.
